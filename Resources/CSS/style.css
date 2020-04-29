@@ -1,0 +1,50 @@
+/* Universal Styles */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* Header */
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    max-height: 4rem;
+  }
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.desktop-logo {
+    display: flex;
+    align-items: center;
+}
+.desktop-logo img {
+    height: 2rem;
+}
+.desktop-logo p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+p span {
+    font-weight: 600;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 1rem;
+}
+nav a {
+    vertical-align: bottom;
+    color: black;
+}
+
