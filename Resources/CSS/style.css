@@ -1,7 +1,11 @@
 /* Universal Styles */
-html {
-    font-family: "Arial", "Helvetica", sans-serif;
+body {
+    font-family: "Montserrat", "Helvetica", sans-serif;
     font-size: 16px;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
 }
 /* Header */
 header {
@@ -17,7 +21,7 @@ header .content {
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 .desktop-logo {
@@ -37,7 +41,7 @@ p span {
 }
 header nav {
     position: relative;
-    left: 35%;
+    left: 40%;
     width:85%;
 }
 header nav ul {
@@ -55,4 +59,44 @@ nav a {
 }
 /* Start Section */
 
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #c6c1c1;
+    position: relative;
+    top: 4rem;
+}
+.main-image {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+.main-image img{
+    max-width: 100%;
+}
+.textcontainer {
+    max-width: 40%;
+    font-family: Montserrat, sans-serif;
+}
+.start-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 7rem;
+}
+.textcontainer h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.textcontainer h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.textcontainer button {
+    padding: 0.5rem 6rem;
+    background-color: cadetblue;
+    color: white;
+}
 
