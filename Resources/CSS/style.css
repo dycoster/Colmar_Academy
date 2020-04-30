@@ -99,4 +99,15 @@ nav a {
     background-color: cadetblue;
     color: white;
 }
-
+/* Practice Section */
+.practice-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #eeeaea;
+    position: relative;
+}
+.main-image h2 {
+    font-size: 1.75rem;
+    padding: 2rem auto 1.5rem 2rem;
+}
