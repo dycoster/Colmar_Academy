@@ -106,8 +106,50 @@ nav a {
     display: flex;
     background-color: #eeeaea;
     position: relative;
+    font-family: Montserrat, sans-serif;
 }
 .main-image h2 {
     font-size: 1.75rem;
-    padding: 2rem auto 1.5rem 2rem;
+    padding: 2rem 0 1.5rem 0;
+    font-weight: 700;
+}
+.agenda-container {
+    max-width: 40%;
+    padding: 2rem 0;
+}
+.event {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.img-content {
+    max-width: 35%;
+    height: auto;
+    display: inline
+}
+.img-content img{
+    max-width: 100%;
+}
+.event-content {
+    position: relative;
+    float: right;
+    max-width: 65%;
+    margin: 1rem;
+}
+#guest-lecture {
+    background-color: hotpink;
+}
+.event h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+.event p {
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+}
+.event a {
+    color: cadetblue;
 }
