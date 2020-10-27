@@ -95,6 +95,7 @@ nav a {
     padding-bottom: 2rem;
 }
 .textcontainer button {
+    border-radius: 4px;
     padding: 0.5rem 6rem;
     background-color: cadetblue;
     color: white;
@@ -115,18 +116,16 @@ nav a {
 }
 .agenda-container {
     max-width: 40%;
-    padding: 2rem 0;
+    padding: 1.4rem 0;
 }
 .event {
     display: flex;
-    height: 30%;
+    height: 33%;
     align-items: center;
-    margin-bottom: 1rem;
 }
 .img-content {
     max-width: 35%;
     height: auto;
-    display: inline
 }
 .img-content img{
     max-width: 100%;
@@ -138,7 +137,7 @@ nav a {
     margin: 1rem;
 }
 #guest-lecture {
-    background-color: hotpink;
+    background-color: #c6c1c1;
 }
 .event h3 {
     font-weight: 700;
@@ -152,4 +151,36 @@ nav a {
 }
 .event a {
     color: cadetblue;
+}
+/* Learing Container */
+.learning-container {
+    width: 100%;
+    display: flex;
+    background-color: silver;
+    font-family: Montserrat, sans-serif;
+}
+.head {
+    position: relative;
+    top: 2rem;
+    
+}
+.head h2 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+.classes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5.75rem 4rem 4rem 4rem;
+    
+}
+.classes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+img {
+    max-width: 100%;
 }
